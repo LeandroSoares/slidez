@@ -1,0 +1,31 @@
+<html>
+<head>
+	<title>slidez</title>
+	<script src="./bower_components/jquery/jquery.min.js"></script>
+	<script src="./bower_components/jquery-ui/ui/jquery-ui.js"></script>
+	<!--  <script src="./bower_components/jquery.touchSwipe/jquery.touchSwipe.min.js"></script> -->
+	<script type="text/javascript" src="http://labs.skinkers.com/content/touchSwipe/jquery.touchSwipe.min.js"></script>
+
+	<script src="jquery.slidez.js"></script>
+
+	<script type="text/javascript">
+	$(window).load(function(){
+		$("#oed").slidez();
+		$("#oed").slidezCtrls();
+		$("#oed").addTouchSwipe();
+		$("#oed").delay(5000).slidezNext();
+
+	})
+	
+	</script>
+</head>
+<body>
+	<div id='oed'>
+		<button id='prev'>prev</button>
+		<button id='next'>next</button>
+		<div class ='screen'><H1>Tela1</H1></div>
+		<div class ='screen'><H1>Tela2</H1></div>
+		<div class ='screen'><H1>Tela3</H1></div>
+	</div>
+</body>
+</html>

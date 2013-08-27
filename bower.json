@@ -1,0 +1,25 @@
+{
+  "name": "slidez",
+  "main": "slidez.js",
+  "version": "0.0.0",
+  "authors": [
+    "Leandro Soares <leandrogamedesigner@gmail.com>"
+  ],
+  "description": "slidez jQuery plugin",
+  "keywords": [
+    "slidez",
+    "slide"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery-touchswipe": "~1.6.4",
+    "jquery-ui": "~1.10.3"
+  }
+}
