@@ -3,20 +3,16 @@
 	<title>slidez</title>
 	<script src="./bower_components/jquery/jquery.min.js"></script>
 	<script src="./bower_components/jquery-ui/ui/jquery-ui.js"></script>
-	<!--  <script src="./bower_components/jquery.touchSwipe/jquery.touchSwipe.min.js"></script> -->
-	<script type="text/javascript" src="http://labs.skinkers.com/content/touchSwipe/jquery.touchSwipe.min.js"></script>
-
+	<script src="./bower_components/jquery-touchswipe/jquery.touchSwipe.min.js"></script>
 	<script src="jquery.slidez.js"></script>
 
 	<script type="text/javascript">
-	$(window).load(function(){
-		$("#oed").slidez();
-		$("#oed").slidezCtrls();
-		$("#oed").addTouchSwipe();
-		$("#oed").delay(5000).slidezNext();
-
-	})
-	
+		$(window).load(function(){
+			$("#oed").slidez();
+			$("#oed").slidezCtrls();
+			$("#oed").addTouchSwipe();
+		})
+		
 	</script>
 </head>
 <body>

@@ -1,6 +1,6 @@
 {
   "name": "slidez",
-  "main": "slidez.js",
+  "main": "jquery.slidez.js",
   "version": "0.0.0",
   "authors": [
     "Leandro Soares <leandrogamedesigner@gmail.com>"
@@ -8,9 +8,10 @@
   "description": "slidez jQuery plugin",
   "keywords": [
     "slidez",
-    "slide"
+    "screen",
+    "management"
   ],
-  "license": "MIT",
+  "license": "APACHE2.0",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -21,5 +22,6 @@
   "dependencies": {
     "jquery-touchswipe": "~1.6.4",
     "jquery-ui": "~1.10.3"
-  }
+  },
+  "homepage": "https://github.com/LeandroSoares/slidez"
 }
