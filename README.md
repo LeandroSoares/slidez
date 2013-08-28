@@ -12,3 +12,7 @@ $("#container").slidezCtrls();//init controls on #next and #prev, container chil
 //optional
 $("#container").addTouchSwipe();//add gesture navigation with jquery.touchSwipe.js
 ```
+
+
+
+slidez is licensed under the Apache license. © 2013 Leandro Silva Soares. All rights reserved.
