@@ -1,3 +1,7 @@
+var SlidezEvents = {
+		ENTER:'slidezEnter',
+		EXIT:'slidezExit'
+	};
 (function( $ ) {
     //CONSTRUCTOR
     $.fn.slidez = function(options) {
@@ -51,7 +55,6 @@
 	}
 
 	$.fn.slidezGoTo = function(_index) {
-		
 		var screens = $(this).data('screens');
 		var current = $(this).data('current');
 		var transitiontime = $(this).data('transitiontime');
@@ -62,6 +65,10 @@
 		{
 			$(screens[current]).stop().fadeOut(transitiontime);
 			$(screens[_index]).stop().fadeIn(transitiontime);
+//trigger>>>>>>>>>>
+			$(this).trigger(SlidezEvents.EXIT,$(screens[current]));
+			$(this).trigger(SlidezEvents.ENTER,$(screens[_index]));
+//trigger>>>>>>>>>>
 			current=_index;
 		}
 		$(this).data('current',current);
@@ -74,17 +81,34 @@
 		return this;
 	}
 
-	$.fn.slidezCtrls=function (ctrlprev, ctrlnext) {
+	$.fn.slidezCtrls=function (options) {
 		var container = $(this);
-		var next = $(this).children(ctrlnext||'#next');
-		var prev = $(this).children(ctrlprev||'#prev');
 
-		$(prev).bind("click",function(){
-			$(container).slidezPrev();
-		});
-		$(next).bind("click",function(){ 
-			$(container).slidezNext();
-		});
+		if(options.NextArr.length>0)
+			for (var i = options.NextArr.length - 1; i >= 0; i--) 
+				setNextBtn(options.NextArr[i]);
+		else
+			setNextBtn(options.nextBtn);
+		if(options.PrevArr.length>0)
+			for (var i = options.PrevArr.length - 1; i >= 0; i--) 
+				setPrevBtn(options.PrevArr[i]);
+		else
+			setPrevBtn(options.nextBtn);
+
+		function setNextBtn(id)
+		{
+			// var next = $(this).children(id||'#next');
+			$(id||'#next').bind("click",function(){ 
+				$(container).slidezNext();
+			});
+		}
+		function setPrevBtn(id)
+		{
+			// var prev = $(this).children(id||'#prev');
+			$(id||'#prev').bind("click",function(){
+				$(container).slidezPrev();
+			});
+		}
 	}
 
 	$.fn.addTouchSwipe=function() {
