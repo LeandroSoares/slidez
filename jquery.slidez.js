@@ -66,7 +66,10 @@ var SlidezEvents = {
 			$(screens[current]).stop().fadeOut(transitiontime);
 			$(screens[_index]).stop().fadeIn(transitiontime);
 //trigger>>>>>>>>>>
+var timerHelp = setTimeout(function(){
 			$(this).trigger(SlidezEvents.EXIT,$(screens[current]));
+			clearTimeout(timerHelp);
+		},transitiontime-10);
 			$(this).trigger(SlidezEvents.ENTER,$(screens[_index]));
 //trigger>>>>>>>>>>
 			current=_index;
