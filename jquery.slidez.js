@@ -5,18 +5,22 @@ var SlidezEvents = {
 (function( $ ) {
     //CONSTRUCTOR
     $.fn.slidez = function(options) {
+
 	    var settings = $.extend({
 		       slidezClass:".screen"
 		       ,width:1024
 		       ,height:768
 		       ,transitiontime:500
 		    }, options);
+
 	    if(!$(this).children(settings.slidezClass).length)
 			throw 'slidez container: #'+$(this).attr('id')+' is empty !\nRemember to addClass ".screen" to your screens element holder.';
+	    
 	    //STORE SCREENS ARRAY
 	 	$(this).data('screens',$(this).children(settings.slidezClass));
 		$(this).data('current',0);
 		$(this).data('transitiontime',settings.transitiontime);
+		
 		//SETTING HOLDER
 	 	this.css({
 	 		width:settings.width
@@ -24,8 +28,9 @@ var SlidezEvents = {
 	 	   ,position:'absolute'
 	 	   ,overflow:'hidden'
 	 	});
+	 	
 	 	//SETTING SCREENS
-	 	$(this).children(settings.slidezClass).each(function(){ 
+	 	$(this).children(settings.slidezClass).each(function() { 
 	 		$(this).css({
 		 		width:settings.width
 		 	   ,height:settings.height
@@ -38,31 +43,33 @@ var SlidezEvents = {
     }
 
 	$.fn.slidezNext = function() {
+
 		var screens = $(this).data('screens');
 		var current = $(this).data('current');
 
 		if(current<screens.length-1)
 			$(this).slidezGoTo(current+1);
+
 		return this;
 	}
 
 	$.fn.slidezPrev = function() {
-		var current = $(this).data('current');
 
+		var current = $(this).data('current');
 		if(current>0) $(this).slidezGoTo(current-1);
 
 		return this;
 	}
 
 	$.fn.slidezGoTo = function(_index) {
+
 		var screens = $(this).data('screens');
 		var current = $(this).data('current');
 		var transitiontime = $(this).data('transitiontime');
 
 		if(_index<0 || _index > screens.length-1)
 			throw 'slidez: _index:'+_index+' out of range <from 0 up to '+screens.length-1+'>';
-		if(current!=_index)
-		{
+		if(current!=_index) {
 			$(screens[current]).stop().fadeOut(transitiontime);
 			$(screens[_index]).stop().fadeIn(transitiontime);
 //trigger>>>>>>>>>>
@@ -72,16 +79,25 @@ var SlidezEvents = {
 			current=_index;
 		}
 		$(this).data('current',current);
+
 		return this;
 	}
 	//RESET: SETS DISPLAY NONE TO ALL BUT ONE 
 	$.fn.slidezReset = function(_index) {
+		
 		$(this).data('screens').each(function(){ $(this).hide();});
 		$($(this).data('screens')[_index||0]).stop().show();
+
 		return this;
 	}
-
+// options = { 
+//				NextArr:[buttom1, etc..],
+//				PrevArr:[],
+//				nextBtn:'#b1',
+//				prevBtn:element
+//            }
 	$.fn.slidezCtrls=function (options) {
+
 		var container = $(this);
 
 		if(options.NextArr.length>0)
@@ -93,19 +109,15 @@ var SlidezEvents = {
 			for (var i = options.PrevArr.length - 1; i >= 0; i--) 
 				setPrevBtn(options.PrevArr[i]);
 		else
-			setPrevBtn(options.nextBtn);
+			setPrevBtn(options.prevBtn);
 
-		function setNextBtn(id)
-		{
-			// var next = $(this).children(id||'#next');
-			$(id||'#next').bind("click",function(){ 
+		function setNextBtn(id) {
+			$(id||'#next').bind("click",function() { 
 				$(container).slidezNext();
 			});
 		}
-		function setPrevBtn(id)
-		{
-			// var prev = $(this).children(id||'#prev');
-			$(id||'#prev').bind("click",function(){
+		function setPrevBtn(id) {
+			$(id||'#prev').bind("click",function() {
 				$(container).slidezPrev();
 			});
 		}
@@ -113,8 +125,7 @@ var SlidezEvents = {
 
 	$.fn.addTouchSwipe=function() {
 		$(this).swipe({
-			swipe:function (event, direction, distance, duration, fingerCount)
-			{
+			swipe:function (event, direction, distance, duration, fingerCount) {
 				console.log("You swiped " + direction);
 				if(direction==="left")
 					$(this).slidezPrev();
