@@ -1,6 +1,7 @@
 var SlidezEvents = {
 		ENTER:'slidezEnter',
-		EXIT:'slidezExit'
+		EXIT:'slidezExit',
+		ENTER_COMPLETE:'slidezEnterComplete'
 	};
 (function( $ ) {
     //CONSTRUCTOR
@@ -71,9 +72,10 @@ var SlidezEvents = {
 			throw 'slidez: _index:'+_index+' out of range <from 0 up to '+screens.length-1+'>';
 		if(current!=_index) {
 			$(screens[current]).stop().fadeOut(transitiontime);
-			$(screens[_index]).stop().fadeIn(transitiontime);
+			$(screens[_index]).stop().fadeIn(transitiontime, function(){ $(this).trigger(SlidezEvents.ENTER_COMPLETE, $(screens[_index])); });
 //trigger>>>>>>>>>>
 			$(this).delay(transitiontime-10).trigger(SlidezEvents.EXIT,$(screens[current]));
+			
 			$(this).trigger(SlidezEvents.ENTER,$(screens[_index]));
 //trigger>>>>>>>>>>
 			current=_index;
