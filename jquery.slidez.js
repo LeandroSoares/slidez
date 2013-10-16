@@ -1,8 +1,19 @@
+// DEV : LEANDRO SILVA SOARES
+// REPO: git@github.com:LeandroSoares/slidez.git
+//----------------------------------------------------------------------------
+// Usage: 
+//		$('#myholder').slidez({slidezClass:'.myscreens', width:1280, height:720, transitiontime:1000});
+//		$('#myholder').slidezCtrls({NextArr:[list of next buttons],
+// 									PrevArr:[list of prev buttons],
+// 									nextBtn:'#nextButton',
+// 									prevBtn:'#prevButton'
+// });
+//----------------------------------------------------------------------------
 var SlidezEvents = {
-		ENTER:'slidezEnter',
-		EXIT:'slidezExit',
-		ENTER_COMPLETE:'slidezEnterComplete'
-	};
+						ENTER:'slidezEnter',
+						EXIT:'slidezExit',
+						ENTER_COMPLETE:'slidezEnterComplete'
+				   };
 (function( $ ) {
     //CONSTRUCTOR
     $.fn.slidez = function(options) {
@@ -21,7 +32,9 @@ var SlidezEvents = {
 	 	$(this).data('screens',$(this).children(settings.slidezClass));
 		$(this).data('current',0);
 		$(this).data('transitiontime',settings.transitiontime);
-		
+		$($(this).data('screens')).each(function(index, Element){
+			$(Element).data("index", index);
+		});
 		//SETTING HOLDER
 	 	this.css({
 	 		width:settings.width
@@ -43,6 +56,16 @@ var SlidezEvents = {
         return this;
     }
 
+    $.fn.slidezLast = function() {
+		$(this).slidezGoTo($(this).data('screens').length-1);
+		return this;
+	}
+
+	$.fn.slidezFirst = function() {
+		$(this).slidezGoTo(0);
+		return this;
+	}
+
 	$.fn.slidezNext = function() {
 
 		var screens = $(this).data('screens');
@@ -59,6 +82,29 @@ var SlidezEvents = {
 		var current = $(this).data('current');
 		if(current>0) $(this).slidezGoTo(current-1);
 
+		return this;
+	}
+
+	$.fn.slidezShow = function(_id)
+	{
+		var _index=$(_id).data('index');
+		var screens = $(this).data('screens');
+		var transitiontime = $(this).data('transitiontime');
+		$(screens[_index]).stop().fadeIn(transitiontime);
+	}
+
+	$.fn.slidezHide = function(_id)
+	{
+		var _index=$(_id).data('index');
+		var screens = $(this).data('screens');
+		var transitiontime = $(this).data('transitiontime');
+		$(screens[_index]).stop().fadeOut(transitiontime);
+	}
+
+	$.fn.slidezGoToScreenWithId = function(_id) {
+
+		$(this).slidezGoTo($(_id).data('index'));
+		
 		return this;
 	}
 
@@ -86,10 +132,8 @@ var SlidezEvents = {
 	}
 	//RESET: SETS DISPLAY NONE TO ALL BUT ONE 
 	$.fn.slidezReset = function(_index) {
-		
 		$(this).data('screens').each(function(){ $(this).hide();});
 		$($(this).data('screens')[_index||0]).stop().show();
-
 		return this;
 	}
 // options = { 
@@ -102,12 +146,12 @@ var SlidezEvents = {
 
 		var container = $(this);
 
-		if(options.NextArr.length>0)
+		if(options.NextArr && options.NextArr.length>0)
 			for (var i = options.NextArr.length - 1; i >= 0; i--) 
 				setNextBtn(options.NextArr[i]);
 		else
 			setNextBtn(options.nextBtn);
-		if(options.PrevArr.length>0)
+		if(options.PrevArr && options.PrevArr.length>0)
 			for (var i = options.PrevArr.length - 1; i >= 0; i--) 
 				setPrevBtn(options.PrevArr[i]);
 		else
