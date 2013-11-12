@@ -100,15 +100,18 @@ var SlidezEvents = {
 		var transitiontime = $(this).data('transitiontime');
 		$(screens[_index]).stop().fadeOut(transitiontime);
 	}
-
-	$.fn.slidezGoToScreenWithId = function(_id) {
-
-		$(this).slidezGoTo($(_id).data('index'));
+//Usage: can either go to index or id
+// $('#MySlidezHolder').slidezGoTo(1);
+// $('#MySlidezHolder').slidezGoTo('#slideEpecial');
+	$.fn.slidezGoTo = function(__index) {
+		var _index;
 		
-		return this;
-	}
-
-	$.fn.slidezGoTo = function(_index) {
+		if(__index.constructor===Number)
+			_index = __index;
+		else if(__index.constructor===String)
+			_index = $(__index).data('index')
+		else
+			throw "Error, not found";
 
 		var screens = $(this).data('screens');
 		var current = $(this).data('current');
@@ -118,14 +121,18 @@ var SlidezEvents = {
 			throw 'slidez: _index:'+_index+' out of range <from 0 up to '+screens.length-1+'>';
 		if(current!=_index) {
 			$(screens[current]).stop().fadeOut(transitiontime);
-			$(screens[_index]).stop().fadeIn(transitiontime, function(){ $(this).trigger(SlidezEvents.ENTER_COMPLETE, $(screens[_index])); });
+			$(screens[_index]).stop().fadeIn(transitiontime, function(){ 
 //trigger>>>>>>>>>>
+				$(this).trigger(SlidezEvents.ENTER_COMPLETE, $(screens[_index])); 
+			});
+
 			$(this).delay(transitiontime-10).trigger(SlidezEvents.EXIT,$(screens[current]));
 			
 			$(this).trigger(SlidezEvents.ENTER,$(screens[_index]));
 //trigger>>>>>>>>>>
 			current=_index;
 		}
+		
 		$(this).data('current',current);
 
 		return this;
