@@ -1,0 +1,984 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"fade",
+				"fadeOut	jQuery"
+			],
+			[
+				"script",
+				"script-src	HTML/Snippet"
+			],
+			[
+				"do",
+				"document	jsWindow"
+			],
+			[
+				"meta",
+				"meta-charset	HTML/Snippet"
+			],
+			[
+				"a",
+				"a	HTML/Element"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"posi",
+				"positionss"
+			],
+			[
+				"remo",
+				"removeClass	jQuery"
+			],
+			[
+				"ba",
+				"backimg"
+			],
+			[
+				"loa",
+				"loadGif"
+			],
+			[
+				"ce",
+				"centralizar"
+			],
+			[
+				"unde",
+				"undefined	jsProp"
+			],
+			[
+				"getele",
+				"getElementById	jsDOM"
+			],
+			[
+				"settime",
+				"setTimeout	jsWindow"
+			],
+			[
+				"mid",
+				"mid-image"
+			],
+			[
+				"remove",
+				"removeAttr	jQuery"
+			],
+			[
+				"dra",
+				"draggable"
+			],
+			[
+				"show",
+				"showEnding"
+			],
+			[
+				"forma",
+				"formas"
+			],
+			[
+				"cover",
+				"coverbuttons"
+			],
+			[
+				"instru",
+				"instrucoes"
+			],
+			[
+				"zi",
+				"z-index"
+			],
+			[
+				"game",
+				"gameAnswer"
+			],
+			[
+				"left",
+				"leftbox-margin"
+			],
+			[
+				"add",
+				"addEnterScreenListener"
+			],
+			[
+				"scale",
+				"scaleFactor"
+			],
+			[
+				"borde",
+				"border"
+			],
+			[
+				"iswi",
+				"isWinner"
+			],
+			[
+				"last",
+				"lastPosition"
+			],
+			[
+				"sca",
+				"scaleFactor"
+			],
+			[
+				"off",
+				"offset	jQuery"
+			],
+			[
+				"retor",
+				"retorno"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"tog",
+				"toggleClass	jQuery"
+			],
+			[
+				"remov",
+				"removeAttr	jQuery"
+			],
+			[
+				"tela",
+				"telaContent"
+			],
+			[
+				"ex",
+				"extend	@extend"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"ri",
+				"rightbox"
+			],
+			[
+				"rgb",
+				"rgba	rgba()"
+			],
+			[
+				"he",
+				"header	Tag"
+			],
+			[
+				"inc",
+				"include	@include"
+			],
+			[
+				"mi",
+				"mixin	@mixin"
+			],
+			[
+				"las",
+				"lastChild	jsDOM"
+			],
+			[
+				"ap",
+				"append"
+			],
+			[
+				"geteleme",
+				"getElementsByTagName	jsDOM"
+			],
+			[
+				"pop",
+				"popDados"
+			],
+			[
+				"cre",
+				"creditos"
+			],
+			[
+				"credi",
+				"creditos"
+			],
+			[
+				"f",
+				"font-family"
+			],
+			[
+				"ar",
+				"article	Tag"
+			],
+			[
+				"text",
+				"textoIntro"
+			],
+			[
+				"ju",
+				"juke"
+			],
+			[
+				"mute",
+				"muteAllSounds"
+			],
+			[
+				"mu",
+				"muteAllSounds"
+			],
+			[
+				"auto",
+				"autoplay"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"curre",
+				"currentTip"
+			],
+			[
+				"appen",
+				"appendChild	jsDOM"
+			],
+			[
+				"arg",
+				"args"
+			],
+			[
+				"ele",
+				"elementType"
+			],
+			[
+				"geele",
+				"getElementsByTagName	jsDOM"
+			],
+			[
+				"atr",
+				"attr	jQuery"
+			],
+			[
+				"update",
+				"updateSubs"
+			],
+			[
+				"up",
+				"updatePart"
+			],
+			[
+				"audio",
+				"audioTable"
+			],
+			[
+				"play",
+				"playAudio"
+			],
+			[
+				"tem",
+				"tempAudioDOMElement"
+			],
+			[
+				"create",
+				"createElement	jsDOM"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"vide",
+				"VideoControler_play"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"video",
+				"videoControler"
+			],
+			[
+				"paus",
+				"paused"
+			],
+			[
+				"pl",
+				"playpause"
+			],
+			[
+				"nex",
+				"nextCueElement"
+			],
+			[
+				"prev",
+				"prevCueElement"
+			],
+			[
+				"contr",
+				"controls"
+			],
+			[
+				"previ",
+				"prevCueID"
+			],
+			[
+				"Video",
+				"VideoControler"
+			],
+			[
+				"time",
+				"timeupdate"
+			],
+			[
+				"substring",
+				"substrings"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"if",
+				"if	if"
+			],
+			[
+				"i",
+				"inline-block"
+			],
+			[
+				"fun",
+				"function	jsProp"
+			],
+			[
+				"Vi",
+				"VideoControler_pause"
+			],
+			[
+				"to",
+				"toggleClass	jQuery"
+			],
+			[
+				"go",
+				"gotoPart"
+			],
+			[
+				"re",
+				"resize	jQuery"
+			],
+			[
+				"bt",
+				"btSoundArt"
+			],
+			[
+				"de",
+				"delay	jQuery"
+			],
+			[
+				"for",
+				"for	for (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"call",
+				"callMethodsFromEachElement"
+			],
+			[
+				"elemen",
+				"elementsTag"
+			],
+			[
+				"ismut",
+				"isMute"
+			],
+			[
+				"ismu",
+				"isMute"
+			],
+			[
+				"togg",
+				"toggleOff"
+			],
+			[
+				"eleme",
+				"elements"
+			],
+			[
+				"te",
+				"tela1Content"
+			],
+			[
+				"import",
+				"important"
+			],
+			[
+				"scree",
+				"screen	jsWindow"
+			],
+			[
+				"scre",
+				"screen	jsWindow"
+			],
+			[
+				"dis",
+				"dispatchEvent	jsEvent"
+			],
+			[
+				"src",
+				"script-src	HTML/Snippet"
+			],
+			[
+				"p",
+				"p	HTML/Element"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"fn",
+				"font-size"
+			],
+			[
+				"ace",
+				"acess"
+			],
+			[
+				"sho",
+				"show	jQuery"
+			],
+			[
+				"fa",
+				"fadeIn	jQuery"
+			],
+			[
+				"clas",
+				"hasClass	jQuery"
+			],
+			[
+				"s",
+				"SPAN	Tag"
+			],
+			[
+				"span",
+				"span	HTML/Element"
+			],
+			[
+				"m",
+				"min-height"
+			],
+			[
+				"vid",
+				"video	HTML5"
+			],
+			[
+				"vi",
+				"video	HTML5"
+			],
+			[
+				"acessib",
+				"addAcessibility"
+			],
+			[
+				"crea",
+				"createElement	jsDOM"
+			],
+			[
+				"screens",
+				"screensClass"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pa",
+				"Package Control: Disable Package"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"PACK",
+				"Package Control: Install Package"
+			],
+			[
+				"set:html",
+				"Set Syntax: HTML"
+			],
+			[
+				"set:javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"paca",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"",
+				"API-Completion-Package: Settings – User"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"PA",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"abacus",
+				"Abacus: align selection"
+			],
+			[
+				"aba",
+				"Abacus: align selection"
+			],
+			[
+				"a",
+				"Abacus: align selection"
+			],
+			[
+				"INST",
+				"Package Control: Install Package"
+			],
+			[
+				"align",
+				"Preferences: Alignment File Settings – Default"
+			],
+			[
+				"package control:i",
+				"Package Control: Install Package"
+			],
+			[
+				"ire",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"ide",
+				"Indentation: Reindent Lines"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/leandrosilvasoares/Projects/MODERNA/Operacoes_decimais/index.html",
+		"/Users/leandrosilvasoares/Projects/MODERNA/Operacoes_decimais/untitled.sublime-project",
+		"/Users/leandrosilvasoares/Projects/MODERNA/BUmat5_un07at_operacoes_decimal/com/refunk/timeline/TimelineWatcher.as",
+		"/Users/leandrosilvasoares/Projects/MODERNA/BUmat5_un07at_operacoes_decimal/br/com/moderna/buriti/view/ToolTip.as",
+		"/Users/leandrosilvasoares/Projects/MODERNA/BUmat5_un07at_operacoes_decimal/br/com/moderna/buriti/view/Control.as",
+		"/Users/leandrosilvasoares/Projects/MODERNA/BUmat5_un07at_operacoes_decimal/br/com/moderna/buriti/Preloader.as",
+		"/Users/leandrosilvasoares/Projects/MODERNA/BUmat5_un07at_operacoes_decimal/br/com/moderna/buriti/model/VideoDTO.as",
+		"/Users/leandrosilvasoares/Projects/MODERNA/BUmat5_un07at_operacoes_decimal/br/com/moderna/buriti/model/AbaDTO.as",
+		"/Users/leandrosilvasoares/Projects/MODERNA/BUmat5_un07at_operacoes_decimal/br/com/moderna/buriti/model/CreditosDTO.as",
+		"/Users/leandrosilvasoares/Projects/MODERNA/BUmat5_un07at_operacoes_decimal/br/com/moderna/buriti/model/InfoDTO.as",
+		"/Users/leandrosilvasoares/Projects/MODERNA/BUmat5_un07at_operacoes_decimal/br/com/moderna/buriti/model/SoundDTO.as",
+		"/Users/leandrosilvasoares/Desktop/etlux/backold/index.php",
+		"/Users/leandrosilvasoares/Desktop/etlux/backold/.htaccess",
+		"/Users/leandrosilvasoares/Desktop/etlux/etlux/css/etlux-style.css",
+		"/Users/leandrosilvasoares/Desktop/etlux/etlux/js/core.js",
+		"/Volumes/MOCHILAO/2014/Clientes/Oxford/OA_GE_8_5-Simbolos_geometricos/dev/index.html",
+		"/Users/leandrosilvasoares/Desktop/etlux/etlux.sublime-project",
+		"/Users/leandrosilvasoares/Desktop/etlux/index.html",
+		"/Users/leandrosilvasoares/Desktop/site/index.html",
+		"/Users/leandrosilvasoares/Desktop/site/css/style.css",
+		"/Users/leandrosilvasoares/Desktop/site/style.css",
+		"/Users/leandrosilvasoares/Desktop/site/style.ccs",
+		"/Users/leandrosilvasoares/Projects/Educational/site/index.html",
+		"/Users/leandrosilvasoares/Downloads/aircrack-ng-1.1/INSTALLING",
+		"/Users/leandrosilvasoares/Downloads/aircrack-ng-1.1/README",
+		"/Users/leandrosilvasoares/Downloads/rarcrack-0.2/rarcrack.c",
+		"/Users/leandrosilvasoares/Downloads/rarcrack-0.2/rarcrack.h",
+		"/Users/leandrosilvasoares/Downloads/rarcrack-0.2/README",
+		"/Users/leandrosilvasoares/Downloads/rarcrack-0.2/test.rar.xml",
+		"/Users/leandrosilvasoares/Downloads/rarcrack-0.2/Makefile",
+		"/Users/leandrosilvasoares/.hidden/memo",
+		"/Users/leandrosilvasoares/.bash_profile",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_HI_9_3-Ideias em simbolos/dev.2013.12.17/_oed/css/style.css",
+		"/Users/leandrosilvasoares/Desktop/DELIVERIES/OXFORD/HIS/OA_HI_8_4-Construindo_a_identidade_do_Brasil/_oup/css/style.css",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_HI_7_6-Nueva_cronica_e_buen_gobierno/dev.2013.12.13/index.html",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_HI_7_6-Nueva_cronica_e_buen_gobierno/dev.2013.12.13/_oed/core/subtitles.js",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_HI_8_9- Arte e Cotidiano.2013.12.12/_oed/core/main.js",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_HI_8_9- Arte e Cotidiano.2013.12.12/_oed/css/style.css",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_HI_7_8-Planta_de_um_aldeamento_jesuita/2013.12.17/index.html",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_HI_7_8-Planta_de_um_aldeamento_jesuita/2013.12.17/_oed/core/main.js",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_HI_7_8-Planta_de_um_aldeamento_jesuita/2013.12.17/_oed/core/config.js",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_HI_9_3-Ideias em simbolos/dev.2013.12.17/_oed/core/config.js",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/modelo-oxford-vazio/_oup/css/style.css",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_HI_7_8-Planta_de_um_aldeamento_jesuita/2013.12.17/_oup/css/style.css",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_HI_8_9- Arte e Cotidiano.2013.12.12/_oed/core/config.js",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/workbench.sublime-project",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_HI_9_3-Ideias em simbolos/dev.2013.12.17/index.html",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_HI_9_3-Ideias em simbolos/dev.2013.12.17/_oed/core/main.js",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_HI_7_8-Planta_de_um_aldeamento_jesuita/2013.12.13/_oed/core/config.js",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_HI_7_8-Planta_de_um_aldeamento_jesuita-em-prod/2013.12.13/index.html",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_HI_7_8-Planta_de_um_aldeamento_jesuita-em-prod/2013.12.13/_oed/core/main.js",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_HI_7_8-Planta_de_um_aldeamento_jesuita-em-prod/2013.12.13/_oed/css/style.css",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_HI_7_8-Planta_de_um_aldeamento_jesuita-em-prod/28.12.2013/index.html",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_HI_7_8-Planta_de_um_aldeamento_jesuita-em-prod/index.html",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_HI_7_8-Planta_de_um_aldeamento_jesuita-em-prod/_oed/css/style.css",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_HI_7_6-teste/dev.2013.12.10/_oup/core/main.js",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_HI_7_6-teste/dev.2013.12.10/_oup/core/html5shiv.js",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/dev_feedback/dev/index.html",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/dev_feedback/dev/_oed/css/style.css",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/dev_feedback/dev/js/slidez/LICENSE",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/modelo-oxford-vazio/index.html",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/dev_feedback/dev/_oed/css/Style.css",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/dev_feedback/dev/_oed/core/main.js",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/dev_feedback/dev/_oup/core/main.js",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/dev_feedback/dev/_oup/css/style.css",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_HI_7_8-Planta_de_um_aldeamento_jesuita-em-prod/_oed/core/config.js",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_HI_7_8-Planta_de_um_aldeamento_jesuita-em-prod/_oed/css/drop-shadow.svg",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/modelo-oxford-vazio/_oed/core/config.js",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_GE_9_9-Mapas_de_fotografias_aereas/dev/2013.12.12/_oed/core/config.js",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_GE_9_9-Mapas_de_fotografias_aereas/dev/2013.12.12/_oup/core/main.js",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_GE_9_9-Mapas_de_fotografias_aereas/dev/2013.12.12/_oed/core/main.js",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_GE_9_9-Mapas_de_fotografias_aereas/dev/2013.12.12/_oed/css/style.css",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_GE_9_9-Mapas_de_fotografias_aereas/dev/2013.12.12/index.html",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_GE_9_9-Mapas_de_fotografias_aereas/dev/2013.12.12/_oup/css/style.css",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_HI_8_9- Arte e Cotidiano/index.html",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_HI_8_9- Arte e Cotidiano/_oed/css/style.css",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/modelo-oxford-vazio/_oup/core/main.js",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/modelo-oxford-vazio/_oed/css/style.css",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/modelo-oxford-vazio/_oed/core/main.js",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_GE_9_2-Graficos_Triangulares_2013.12.11/_oup/core/main.js",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_GE_9_2-Graficos_Triangulares_10.12/_oed/core/config.js",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_GE_9_2-Graficos_Triangulares_10.12/index.html",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_HI_9_3-Ideias em simbolos/dev.2013.12.09/_oed/css/style.css",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_HI_9_3-Ideias em simbolos/dev.2013.12.09/index.html",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_HI_9_3-Ideias em simbolos/dev.2013.12.09/_oed/core/main.js",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_HI_8_9- Arte e Cotidiano/_oed/core/main.js",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_HI_9_3-Ideias em simbolos/dev.2013.12.09/_oup/core/main.js",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_HI_8_9- Arte e Cotidiano/_oup/core/main.js",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_HI_8_9- Arte e Cotidiano/_oed/core/content.js",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_HI_8_9- Arte e Cotidiano/_oed/core/config.js",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_HI_7_6-v2/index.html",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_HI_7_6-v2/_oed/core/config.js",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_HI_7_6-v2/_oed/css/subtitles_style.css",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/dev-2013.12.10/_oup/core/main.js",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/dev-2013.12.10/_oed/css/style.css",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/dev-2013.12.10/_oup/css/style.css",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_GE_9_9-Mapas_de_fotografias_aereas/dev/2013.12.09/index.html",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/dev-2013.12.10/index.html",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/dev-2013.12.10/_oed/core/config.js",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_HI_9_3-Ideias em simbolos/dev.2013.12.09/_oed/core/config.js",
+		"/Volumes/CELULA_PRODUCAO/Clientes/Oxford/OA_GE_9_9-Mapas_de_fotografias_aereas/dev/2013.12.09/_oup/core/main.js",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_GE_9_4-Croqui_de_um_conjunto_de_edificios/dev/_oed/core/config.js",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_GE_9_4-Croqui_de_um_conjunto_de_edificios/dev/dev/index.html",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_HI_9_3-Ideias_em_simbolos.2013.12.09/_oed/core/config.js",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_HI_9_3-Ideias_em_simbolos.2013.12.09/_oup/core/main.js",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_HI_9_3-Ideias_em_simbolos/index.html",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_HI_9_3-Ideias_em_simbolos/_oed/css/style.scss",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_HI_9_3-Ideias_em_simbolos/_oed/core/main.js",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_HI_9_3-Ideias_em_simbolos/_oed/core/config.js",
+		"/Users/leandrosilvasoares/Desktop/WORKBENCH/OA_GE_9_9-Mapas_de_fotografias_aereas/OA_GE_9_9-Mapas_de_fotografias_aereas-2013.12.07/_oed/core/config.js",
+		"/Users/leandrosilvasoares/Desktop/OA_GE_9_9-Mapas_de_fotografias_aereas/OA_GE_9_9-Mapas_de_fotografias_aereas-2013.12.07/_oed/css/style.css",
+		"/Users/leandrosilvasoares/Desktop/OA_GE_9_9-Mapas_de_fotografias_aereas/OA_GE_9_9-Mapas_de_fotografias_aereas-2013.12.07/_oed/core/main.js",
+		"/Users/leandrosilvasoares/Desktop/OA_GE_9_9-Mapas_de_fotografias_aereas/OA_GE_9_9-Mapas_de_fotografias_aereas-2013.12.07/index.html",
+		"/Users/leandrosilvasoares/Desktop/OA_GE_9_9-Mapas_de_fotografias_aereas/2013.12.06.22h23/index.html",
+		"/Users/leandrosilvasoares/Desktop/OA_GE_9_9-Mapas_de_fotografias_aereas/2013.12.06.22h23/_oed/css/style.css",
+		"/Users/leandrosilvasoares/Desktop/OA_GE_9_9-Mapas_de_fotografias_aereas/2013.12.06.22h23/_oed/core/main.js",
+		"/Users/leandrosilvasoares/Desktop/OA_GE_9_9-Mapas_de_fotografias_aereas/2013.12.06.22h23/_oup/core/main.js",
+		"/Users/leandrosilvasoares/Desktop/OA_GE_9_9-Mapas_de_fotografias_aereas/2013.12.06.22h23/_oed/core/config.js",
+		"/Users/leandrosilvasoares/Desktop/OA_GE_9_9-Mapas_de_fotografias_aereas/2013.12.06.22h23/_oed/css/style.scss",
+		"/Users/leandrosilvasoares/Desktop/OA_GE_9_9-Mapas_de_fotografias_aereas/2013.12.06.22h23/_oup/css/style.css",
+		"/Users/leandrosilvasoares/Desktop/OA_GE_9_9-Mapas_de_fotografias_aereas/2013.12.06.22h23/_oup/img/instrucoes.svg",
+		"/Users/leandrosilvasoares/Desktop/teste.html",
+		"/Users/leandrosilvasoares/Desktop/OA_GE_9_9-Mapas_de_fotografias_aereas/2013.12.06/_oed/css/style.scss",
+		"/Users/leandrosilvasoares/Desktop/OA_GE_9_9-Mapas_de_fotografias_aereas/2013.12.06/index.html",
+		"/Users/leandrosilvasoares/Desktop/OA_GE_9_9-Mapas_de_fotografias_aereas/2013.12.06/_oed/core/main.js",
+		"/Users/leandrosilvasoares/Desktop/OA_GE_9_9-Mapas_de_fotografias_aereas/2013.12.06/_oed/core/config.js",
+		"/Users/leandrosilvasoares/Desktop/OA_GE_9_9-Mapas_de_fotografias_aereas/untitled.sublime-project",
+		"/Users/leandrosilvasoares/Desktop/servidor.txt"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"span",
+			"100px",
+			"50px",
+			"li>",
+			"<li>",
+			"ul",
+			"255",
+			"   HIS",
+			"subtitles",
+			"top",
+			"é",
+			"backgroundColor:'rgba(0,0,0,0.0)'",
+			"50",
+			"é",
+			"í",
+			"80",
+			"tela2",
+			"tela2 ",
+			"</p><p>",
+			"<p>",
+			"oedbg",
+			"DinamicBGColor",
+			"dinamicBGColor",
+			"Style",
+			"scaleFactor",
+			"12",
+			"444",
+			"12",
+			"resetgame2",
+			"As imagens de sa",
+			"As imagens",
+			"asfoto",
+			"tiradas",
+			" .",
+			"Resposta errada",
+			"imghold",
+			"fill",
+			"tela5",
+			"arte",
+			"5",
+			"background",
+			"animaIntro",
+			"￼Legenda: ",
+			"-45px",
+			"top",
+			"svg",
+			";",
+			"bottom: 75px;",
+			"Myriad MyriadPro-Regular",
+			"'MyriadPro-Regular'",
+			"Internet Explorer 9",
+			"loaded",
+			"img_framez2",
+			"img_frame03",
+			"frame05",
+			"zoomd",
+			" $('#overlay').animate({backgroundColor:'rgba(0,0,0,0.7)'});",
+			"25px",
+			" $(this).removeAttr(\"style\");",
+			"$(_leftImage+' p')",
+			"$(this).removeAttr(\"style\");",
+			"$(_leftImage+' p').css(\"color\", 'white');",
+			"        ",
+			"24px",
+			"25px",
+			"<br>2",
+			"2 ",
+			"<div class='mid-bg'></div>",
+			"end",
+			"animate",
+			"animate(",
+			"this.",
+			"rv",
+			"this",
+			"reset",
+			"oed.",
+			"enterCompleteScreen",
+			"enterCompleteScreenListenerList",
+			"enterScreenListenerList",
+			"credits",
+			"addEnterScreenListener",
+			"\">\n",
+			"anima",
+			"animaIntro",
+			"loadOed",
+			"mobilecheck",
+			"css_reset",
+			"body",
+			"resize",
+			"1024",
+			"animaIntro",
+			"scaleFactor",
+			"resize",
+			"OUP.",
+			"game2playerAnswer",
+			".png",
+			"quad.gif",
+			"background-image",
+			"ackground-image",
+			"background",
+			"ocultarMapaSimbolos",
+			"exibirMapaSimbolos",
+			"url(",
+			"url",
+			"toggleClass",
+			"div",
+			"background-image",
+			"src",
+			"div",
+			"</div>",
+			".css('color')",
+			"quadrado",
+			"limparQuiz",
+			"ocultarMapaSimbolos",
+			"exibirMapaSimbolos",
+			"40px",
+			"exibirMapaSimbolos",
+			" var posss={",
+			"greedy:true,",
+			"formas",
+			"{drop:",
+			"central",
+			"ui.draggable(\"disable\");",
+			"$(ui.helper).animate(posss);",
+			" var posss={\n                top:\n                ,left:\n            }",
+			"top",
+			"formas",
+			"caixaAnfibios"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"<table"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 180.0,
+	"status_bar_visible": true
+}
