@@ -1,16 +1,19 @@
 SLIDEZ
 ======
-v.0.0.0
+v.1.0.0
 
 jquery plugin for screen management, or slides.
 
 Easely create you slideshow
 
 ```
-$("#container").slidez();//init the slidez container and take all .screen children as slidez screens
-$("#container").slidezCtrls();//init controls on #next and #prev, container children, ids
-//optional
-$("#container").addTouchSwipe();//add gesture navigation with jquery.touchSwipe.js
+Usage: 
+     $('#myholder').slidez({slidezClass:'.myscreens', width:1280, height:720, transitiontime:1000});
+     $('#myholder').slidezCtrls({NextArr:[list of next buttons],
+                                 PrevArr:[list of prev buttons],
+                                 nextBtn:'#nextButton',
+                                 prevBtn:'#prevButton'
+});
 ```
 
 
