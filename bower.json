@@ -20,7 +20,6 @@
     "tests"
   ],
   "dependencies": {
-    "jquery-touchswipe": "~1.6.4",
     "jquery-ui": "~1.10.3"
   },
   "homepage": "https://github.com/LeandroSoares/slidez"
