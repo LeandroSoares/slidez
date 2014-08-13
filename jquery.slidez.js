@@ -176,17 +176,6 @@ var SlidezEvents = {
 		}
 	}
 
-	$.fn.addTouchSwipe=function() {
-		$(this).swipe({
-			swipe:function (event, direction, distance, duration, fingerCount) {
-				console.log("You swiped " + direction);
-				if(direction==="left")
-					$(this).slidezPrev();
-				if(direction==="right")
-					$(this).slidezNext();
-			}
-		});
-	}
 	//GET CURRENT SLIDEZ
     $.fn.slidez_current=function() { 
     	return $(this).data('current'); 
