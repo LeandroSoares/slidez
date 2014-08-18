@@ -2,7 +2,7 @@
 // REPO: git@github.com:LeandroSoares/slidez.git
 //----------------------------------------------------------------------------
 // Usage: 
-//		$('#myholder').slidez({slidezClass:'.myscreens', width:1280, height:720, transitiontime:1000});
+//		$('#myholder').slidez({slidezClass:'.myscreens', width:1280, height:720, transitiontime:1000,loopThrough:false});
 //		$('#myholder').slidezCtrls({NextArr:[list of next buttons],
 // 									PrevArr:[list of prev buttons],
 // 									nextBtn:'#nextButton',
@@ -23,6 +23,7 @@ var SlidezEvents = {
 		       ,width:1024
 		       ,height:768
 		       ,transitiontime:500
+		       ,loopThrough:false
 		    }, options);
 
 	    if(!$(this).children(settings.slidezClass).length)
@@ -35,6 +36,7 @@ var SlidezEvents = {
 		$($(this).data('screens')).each(function(index, Element){
 			$(Element).data("index", index);
 		});
+		$(this).data('loopThrough', settings.loopThrough);
 		//SETTING HOLDER
 	 	this.css({
 	 		width:settings.width
@@ -70,9 +72,11 @@ var SlidezEvents = {
 
 		var screens = $(this).data('screens');
 		var current = $(this).data('current');
-
+		var loop =  $(this).data('loopThrough');
 		if(current<screens.length-1)
 			$(this).slidezGoTo(current+1);
+		else if(loop)
+			$(this).slidezFirst();
 
 		return this;
 	}
@@ -80,7 +84,11 @@ var SlidezEvents = {
 	$.fn.slidezPrev = function() {
 
 		var current = $(this).data('current');
-		if(current>0) $(this).slidezGoTo(current-1);
+		var loop =  $(this).data('loopThrough');
+		if(current>0)
+			$(this).slidezGoTo(current-1);
+		else if(loop)
+			$(this).slidezLast();
 
 		return this;
 	}
@@ -102,16 +110,16 @@ var SlidezEvents = {
 	}
 //Usage: can either go to index or id
 // $('#MySlidezHolder').slidezGoTo(1);
-// $('#MySlidezHolder').slidezGoTo('#slideEpecial');
+// $('#MySlidezHolder').slidezGoTo('#slideSpecial');
 	$.fn.slidezGoTo = function(__index) {
 		var _index;
-		
+		//Validando
 		if(__index.constructor===Number)
 			_index = __index;
 		else if(__index.constructor===String)
 			_index = $(__index).data('index')
 		else
-			throw "Error, not found";
+			throw "Error, __index is not a Number or a String ID";
 
 		var screens = $(this).data('screens');
 		var current = $(this).data('current');
