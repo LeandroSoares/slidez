@@ -20,8 +20,8 @@ var SlidezEvents = {
 
 	    var settings = $.extend({
 		       slidezClass:".screen"
-		       ,width:1024
-		       ,height:768
+		       ,width:null
+		       ,height:null
 		       ,transitiontime:500
 		       ,loopThrough:false
 		    }, options);
@@ -37,21 +37,27 @@ var SlidezEvents = {
 			$(Element).data("index", index);
 		});
 		$(this).data('loopThrough', settings.loopThrough);
+
+		
 		//SETTING HOLDER
 	 	this.css({
-	 		width:settings.width
-	 	   ,height:settings.height
-	 	   ,position:'absolute'
+	 	   position:'absolute'
 	 	   ,overflow:'hidden'
 	 	});
+		if(settings.width!=null && settings.height!=null){ 
+		 	this.css({
+				 width:settings.width
+				,height:settings.height
+		 	});
+
+		 }
 	 	
 	 	//SETTING SCREENS
 	 	$(this).children(settings.slidezClass).each(function() { 
-	 		$(this).css({
-		 		width:settings.width
-		 	   ,height:settings.height
-		 	   ,position:'absolute'
-		 	});
+	 		if(settings.width!=null && settings.height!=null) { 
+	 			$(this).css({ width:settings.width ,height:settings.height });
+	 		}
+	 		$(this).css({position:'absolute'});
 	 	});
 	 	//DISPLAY FIRST SCREEN
 	 	$(this).slidezReset();
