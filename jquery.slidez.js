@@ -101,7 +101,8 @@ var SlidezEvents = {
 
 	$.fn.slidezShow = function(_id)
 	{
-		var _index=$(_id).data('index');
+		var elj = jQuery.find(_id);
+		var _index=elj.data('index');
 		var screens = $(this).data('screens');
 		var transitiontime = $(this).data('transitiontime');
 		$(screens[_index]).stop().fadeIn(transitiontime);
@@ -109,7 +110,8 @@ var SlidezEvents = {
 
 	$.fn.slidezHide = function(_id)
 	{
-		var _index=$(_id).data('index');
+		var elj = jQuery.find(_id);
+		var _index=elj.data('index');
 		var screens = $(this).data('screens');
 		var transitiontime = $(this).data('transitiontime');
 		$(screens[_index]).stop().fadeOut(transitiontime);
