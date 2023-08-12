@@ -1,6 +1,6 @@
 SLIDEZ
 ======
-v.1.0.0
+v.1.0.1
 
 jquery plugin for screen management, or slides.
 
